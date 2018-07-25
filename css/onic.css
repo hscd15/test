@@ -1,0 +1,560 @@
+/*
+ * ONIC Core CSS v1.0.0 (https://www.onic.ca/)
+ * Copyright 2018 ONIC Group Inc.
+ *
+ */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.◼♚ {
+    color: #000;
+}
+
+/* Reset */
+
+.◼◾ {
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.◼◾:focus {
+    outline: transparent;
+}
+
+/*Hide Scroll Bar*/
+
+.◼ℍ::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    color: #000;
+    cursor: default;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header, Navigation */
+
+.nPT {
+    -webkit-transform: translate(0, -8px);
+    -moz-transform: translate(0, -8px);
+    -ms-transform: translate(0, -8px);
+    -o-transform: translate(0, -8px);
+    transform: translate(0, -8px);
+}
+
+
+.nPB {
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+}
+
+.◼╱ {
+    /*Rotate Top Nav Line*/
+    -webkit-transform: translate(0px, 2.5px) rotate(-50deg);
+    -moz-transform: translate(0px, 2.5px) rotate(-50deg);
+    -ms-transform: translate(0px, 2.5px) rotate(-50deg);
+    -o-transform: translate(0px, 2.5px) rotate(-50deg);
+    transform: translate(0px, 2.5px) rotate(-50deg);
+}
+
+.◼╲ {
+    /*Rotate Bottom Nav Line*/
+    -webkit-transform: translate(0px, -2.5px) rotate(50deg);
+    -moz-transform: translate(0px, -2.5px) rotate(50deg);
+    -ms-transform: translate(0px, -2.5px) rotate(50deg);
+    -o-transform: translate(0px, -2.5px) rotate(50deg);
+    transform: translate(0px, -2.5px) rotate(50deg);
+}
+
+/* Backgrounds */
+
+.◼➀ {
+    /* White */
+    background: #fff;
+}
+
+.◼➁ {
+    /* Black */
+    background: #2D2D34;
+    /*    background: #000;*/
+    /*    background: #d83e14;*/
+}
+
+.◼➂ {
+    /* Grey */
+    background: #F2F2F4;
+}
+
+.◼➃ {
+    /* RGBA */
+    background: #000;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.◼➉ {
+    background: none;
+}
+
+/* Typography */
+
+.◼♜ {
+    font: 400 100% 'Roboto', sans-serif;
+}
+
+.◼➌ {
+    font-weight: 300;
+}
+
+.◼➍ {
+    font-weight: 400;
+}
+
+.◼⚁ {
+    font-size: 1.2rem;
+}
+
+.◼⚄ {
+    font-size: 0.85rem;
+}
+
+.◼⚅ {
+    font-size: 0.95rem;
+}
+
+.◼← {
+    text-align: left;
+}
+
+.◼→ {
+    text-align: right;
+}
+
+.⚉t-hide {
+    color: transparent;
+    line-height: 0;
+    height: 0;
+}
+
+.⚉center {
+    text-align: center;
+}
+
+.◼w,
+.◼w:active,
+.◼w:focus,
+.◼w:hover,
+.◼w:visited {
+    color: #fff;
+}
+
+.◼g {
+    color: #e8e8e8;
+}
+
+.◼⚆ {
+    text-align: center;
+}
+
+.◼⚉ {
+    text-transform: uppercase;
+}
+
+/* Coloums */
+
+.◼ⅎ {
+    height: 99%;
+    width: 200%;
+}
+
+.◼█ {
+    width: 100%;
+    margin: 0;
+}
+
+.◼▉ {
+    margin: 0 4.25%;
+    width: 91.5%;
+}
+
+.◼▊ {
+    margin: 0 12.5%;
+    width: 75%;
+}
+
+.◼▌ {
+    width: 49.5%;
+}
+
+.◼▌:nth-child(even) {
+    margin: 0 0 1% 1%;
+}
+
+.◼▍ {
+    width: 20%;
+}
+
+.◼⅃ {
+    width: 132px;
+}
+
+.◼▔ {
+    width: auto;
+}
+
+/* Rows */
+
+.◼▕ {
+    height: 100%;
+}
+
+.◼q {
+    height: 44.95%
+}
+
+.◼f {
+    height: 20%
+}
+
+.◼i {
+    height: 80%;
+}
+
+.◼▆ {
+    height: 66px;
+    line-height: 66px;
+}
+
+.◼▅ {
+    height: 44px;
+    line-height: 44px;
+}
+
+.◼▄ {
+    height: 37.5px;
+    line-height: 37.5px;
+}
+
+.◼l {
+    height: 1px;
+    margin-top: 5px;
+}
+
+.◼▁ {
+    height: 0;
+}
+
+/* Margins / Padding */
+
+.◼❶ {
+    padding-left: 44px;
+}
+
+.◼❷ {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.◼❸ {
+    padding: 0.25rem 0;
+}
+
+.◼❼ {
+    margin: 0 auto;
+}
+
+.◼❹ {
+    margin-bottom: 5.75rem;
+}
+
+.◼❺ {
+    margin-bottom: 1.25rem;
+}
+
+.◼❻ {
+    margin: 0 5%;
+}
+
+.◼❽ {
+    padding-left: 4.25%;
+    padding-right: 4.25%;
+}
+
+.◼❾ {
+    padding-top: 0.75rem;
+}
+
+.◼❿ {
+    padding-bottom: 0.75rem;
+}
+
+/* Z-Index */
+
+.◼☷ {
+    z-index: 0;
+}
+
+.◼☳ {
+    z-index: 1;
+}
+
+.◼☱ {
+    z-index: 2;
+}
+
+.◼☵ {
+    z-index: 3;
+}
+
+.◼☴ {
+    z-index: 4;
+}
+
+.◼☶ {
+    z-index: 5;
+}
+
+.◼☰ {
+    z-index: 6;
+}
+
+/* Positions */
+
+.◼☖ {
+    position: absolute;
+}
+
+.◼☗ {
+    position: fixed;
+}
+
+.◼↸ {
+    top: 100%;
+}
+
+.◼↧ {
+    top: 20%;
+}
+
+.◼↡ {
+    top: 115%;
+}
+
+.◼↦ {
+    left: 115%;
+}
+
+.◼↖ {
+    left: 0;
+    top: 0;
+}
+
+.◼↗ {
+    right: 0;
+    top: 0;
+}
+
+.◼↙ {
+    bottom: 0;
+    left: 0;
+}
+
+.◼↤ {
+    left: -115%;
+}
+
+.◼╬ {
+    /*Center*/
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.◼═ {
+    /*Center Horizontally*/
+    /*NOT USED*/
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.◼║ {
+    /*Center Vertically*/
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Floats */
+
+.◼╾ {
+    float: left;
+}
+
+.◼╼ {
+    float: right;
+}
+
+.◼╌ {
+    clear: both;
+}
+
+/* Menu Items */
+
+.cat {
+    position: relative;
+    padding-top: 35%;
+}
+
+.catTitle {
+    /*    color: #fff;*/
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.⚉category-items li span {
+    font-weight: 300;
+    padding-top: 0.25rem;
+}
+
+/* Dialogs */
+
+.◼░▯ {
+    /*    Nav*/
+    height: 133px;
+}
+
+.◼▓ {
+    /*Pop*/
+    margin: 0 7.5%;
+    opacity: 0;
+    padding: 2rem 5%;
+    transform: translateY(-50%) scale(0.75);
+}
+
+.◼▓▯ {
+    /*Pop Open*/
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+/* Buttons */
+
+.◼▢ {
+    width: 44px;
+    height: 44px;
+}
+
+.◼□ {
+    width: 20px;
+    height: 20px;
+}
+
+/* Animation */
+
+.◼▞ {
+    -webkit-transition: all 350ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition: all 350ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -ms-transition: all 350ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition: all 350ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition: all 350ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* Extras */
+
+.◼✗ {
+    display: none;
+}
+
+.◼✔ {
+    display: block;
+}
+
+.◼✜ {
+    display: inline-block;
+}
+
+.◼● {
+    overflow: hidden;
+}
+
+.◼○ {
+    overflow: visible;
+}
+
+.◼◑ {
+    overflow-x: hidden;
+}
+
+.◼◓ {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.◼❑ {
+    /*shadow*/
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.◼◘ {
+    border-radius: 50px;
+}
+
+.◼b {
+    border-radius: 50%;
+}
+
+.◼━ {
+    /*    border: 1px solid #f2f2f4;*/
+    border: 1px solid #e5e5e8;
+}
+
+.◼┉ {
+    border-top: 1px solid #e8e8e8;
+}
+
+.◼┈ {
+    /*underline*/
+    border-bottom: 0.5px solid #979797;
+    border-bottom: 0.5px solid rgba(151, 151, 151, 0.9);
+}
+
+.◼▀ {
+    box-sizing: border-box;
+}
